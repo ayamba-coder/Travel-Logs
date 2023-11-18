@@ -1,5 +1,8 @@
+"use client";
 import "@/app/(ui)/global.css";
 import { inter_latin } from "./(ui)/fonts";
+import { Header } from "./(ui)/Header";
+
 export default function RootLayout({
   children,
 }: {
@@ -13,7 +16,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Travel Logs</title>
       </head>
-      <body className={`${inter_latin.className} antialiased`}>{children}</body>
+      <body className={`${inter_latin.className} antialiased`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
