@@ -48,9 +48,9 @@ export default function Page() {
         >
           Welcome To Travel Logs Express
         </h1>
-        <Button className="translate-x-full translate-y-56">
+        {/* <Button className="translate-x-full translate-y-56">
           Track Parcel <ArrowRightIcon className="w-5 md:w-6" />
-        </Button>
+        </Button> */}
       </div>
       {/* <main className=" flex flex-col p-2 md:p-3 md:flex-row grow">
         <div className="flex grow  justify-between  md:flex-row flex-col">
