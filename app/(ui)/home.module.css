@@ -5,3 +5,22 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
   }
+  
+  @keyframes moveFork  {
+    to{
+      transform: translateX(415%);
+    }
+  }
+
+  @media(min-width: 640px) {
+    .forklift{
+      animation-duration: 5s;
+      animation-name: moveFork;
+      animation-iteration-count: 1;
+      transition: all 0.2s linear;
+      animation-fill-mode: forwards;
+    }
+}
+
+
+ 

@@ -20,6 +20,7 @@ const config: Config = {
         },
       },
     },
+   
     keyframes: {
       shimmer: {
         '100%': {
