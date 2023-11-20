@@ -138,7 +138,7 @@ export default function Page() {
             alt="delivery-details"
             className=" max-w-full md:ml-8"
           />
-          <div className={`flex flex-col gap-y-8 ${roboto_latin}`}>
+          <div className={`flex flex-col gap-y-8`}>
             <div>
               <h3 className="px-4 ">
                 <button
@@ -154,13 +154,13 @@ export default function Page() {
                   ) : (
                     <PlusCircleIcon width={25} className="text-blue-900" />
                   )}
-                  <h4 className={`${roboto_latin.className} text-xl`}>
+                  <h4 className={`${inter_latin.className} text-xl`}>
                     Best in class global delivery
                   </h4>
                 </button>
               </h3>
               <p
-                className={`${roboto_latin.className} text-md mt-4 px-7 ${
+                className={`${inter_latin.className} text-md mt-4 px-7 ${
                   open ? "" : "hidden"
                 }`}
               >
@@ -184,12 +184,16 @@ export default function Page() {
                   ) : (
                     <PlusCircleIcon width={25} className="text-blue-900" />
                   )}
-                  <h4 className={`${roboto_latin.className} text-xl`}>
+                  <h4 className={`${inter_latin.className} text-xl`}>
                     Round the clock support
                   </h4>
                 </button>
               </h3>
-              <p className={`mt-4 px-7 ${open1 ? "" : "hidden"}`}>
+              <p
+                className={` ${inter_latin.className} mt-4 px-7 ${
+                  open1 ? "" : "hidden"
+                }`}
+              >
                 We have couriers working 24/7, a s well as a range of in-night
                 logistics services to ensure that every parcel is delivered as
                 promised through our door-to-door service.
@@ -210,7 +214,7 @@ export default function Page() {
                   ) : (
                     <PlusCircleIcon width={25} className="text-blue-900" />
                   )}{" "}
-                  <h4 className={`${roboto_latin.className} text-xl`}>
+                  <h4 className={`${inter_latin.className} text-xl`}>
                     Online comparison platform
                   </h4>
                 </button>
@@ -602,7 +606,7 @@ export default function Page() {
             <Image
               src="https://expressdove.com/wp-content/uploads/2023/06/Alain_60_crp-527x527.jpg"
               alt="user_photo"
-              className=" sm:w-72 sm:h-72 w-96 h-96  rounded-full object-cover"
+              className=" w-48 h-48   rounded-full object-cover"
               width={1000}
               height={1000}
             />
@@ -614,7 +618,7 @@ export default function Page() {
             <Image
               src="https://images.unsplash.com/photo-1558203728-00f45181dd84?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="user_photo"
-              className=" sm:w-72 sm:h-72 w-96 h-96  rounded-full object-cover"
+              className=" w-48 h-48  rounded-full object-cover"
               width={1000}
               height={1000}
             />
@@ -627,7 +631,7 @@ export default function Page() {
             <Image
               src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="user_photo"
-              className=" sm:w-72 sm:h-72 w-96 h-96  rounded-full object-cover"
+              className=" w-48 h-48 rounded-full object-cover"
               width={1000}
               height={1000}
             />

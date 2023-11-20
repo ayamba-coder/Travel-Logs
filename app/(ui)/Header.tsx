@@ -58,10 +58,10 @@ export const Header = () => {
           </h5>
         </div>
         <div
-          className={`fixed z-50 w-full bg-white  px-3  py-2  border-b  ${
+          className={`fixed z-50 w-full bg-white  px-3  py-5  border-b  ${
             inView
               ? "md:max-w-6xl md:translate-x-1/3 md:right-1/3 md:bg-transparent lg:mt-24 "
-              : "top-0"
+              : "sm:top-0"
           }`}
         >
           <div className="flex items-center justify-between h-24">
